@@ -18,6 +18,8 @@
 		359B709E2837FC9F004A94AC /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B709D2837FC9F004A94AC /* OrderListViewModel.swift */; };
 		359B70A12837FFF2004A94AC /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B70A02837FFF2004A94AC /* OrderListView.swift */; };
 		35B9DCFD28382C9D00979F4A /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9DCFC28382C9D00979F4A /* CreateOrderResponse.swift */; };
+		35B9DCFF28382D8700979F4A /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9DCFE28382D8700979F4A /* AddCoffeeOrderViewModel.swift */; };
+		35B9DD0128382FA100979F4A /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9DD0028382FA100979F4A /* CoffeeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		359B709D2837FC9F004A94AC /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		359B70A02837FFF2004A94AC /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		35B9DCFC28382C9D00979F4A /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		35B9DCFE28382D8700979F4A /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		35B9DD0028382FA100979F4A /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				359B709D2837FC9F004A94AC /* OrderListViewModel.swift */,
+				35B9DCFE28382D8700979F4A /* AddCoffeeOrderViewModel.swift */,
+				35B9DD0028382FA100979F4A /* CoffeeViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -249,11 +255,13 @@
 			files = (
 				359B706D2837F722004A94AC /* ContentView.swift in Sources */,
 				359B706B2837F722004A94AC /* Coffe_Ordering_AppApp.swift in Sources */,
+				35B9DD0128382FA100979F4A /* CoffeeViewModel.swift in Sources */,
 				359B70982837FA55004A94AC /* Order.swift in Sources */,
 				35B9DCFD28382C9D00979F4A /* CreateOrderResponse.swift in Sources */,
 				359B70A12837FFF2004A94AC /* OrderListView.swift in Sources */,
 				359B709E2837FC9F004A94AC /* OrderListViewModel.swift in Sources */,
 				359B709B2837FB07004A94AC /* WebService.swift in Sources */,
+				35B9DCFF28382D8700979F4A /* AddCoffeeOrderViewModel.swift in Sources */,
 				359B70962837F870004A94AC /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
