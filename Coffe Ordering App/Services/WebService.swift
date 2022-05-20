@@ -9,7 +9,7 @@ import Foundation
 
 class WebService {
     func getAllOrders(completion: @escaping ([Order]?) -> Void) {
-        guard let url = URL(string: "") else {
+        guard let url = URL(string: "https://island-bramble.glitch.me/orders") else {
             completion(nil)
             return
         }
