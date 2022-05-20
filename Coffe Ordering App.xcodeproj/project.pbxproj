@@ -15,6 +15,7 @@
 		359B70962837F870004A94AC /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B70952837F870004A94AC /* Coffee.swift */; };
 		359B70982837FA55004A94AC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B70972837FA55004A94AC /* Order.swift */; };
 		359B709B2837FB07004A94AC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B709A2837FB07004A94AC /* WebService.swift */; };
+		359B709E2837FC9F004A94AC /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B709D2837FC9F004A94AC /* OrderListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		359B70952837F870004A94AC /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		359B70972837FA55004A94AC /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		359B709A2837FB07004A94AC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		359B709D2837FC9F004A94AC /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		359B70692837F722004A94AC /* Coffe Ordering App */ = {
 			isa = PBXGroup;
 			children = (
+				359B709C2837FC5B004A94AC /* View Models */,
 				359B70992837FAC5004A94AC /* Services */,
 				359B70942837F853004A94AC /* Models */,
 				359B706A2837F722004A94AC /* Coffe_Ordering_AppApp.swift */,
@@ -120,6 +123,14 @@
 				359B709A2837FB07004A94AC /* WebService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		359B709C2837FC5B004A94AC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				359B709D2837FC9F004A94AC /* OrderListViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 				359B706D2837F722004A94AC /* ContentView.swift in Sources */,
 				359B706B2837F722004A94AC /* Coffe_Ordering_AppApp.swift in Sources */,
 				359B70982837FA55004A94AC /* Order.swift in Sources */,
+				359B709E2837FC9F004A94AC /* OrderListViewModel.swift in Sources */,
 				359B709B2837FB07004A94AC /* WebService.swift in Sources */,
 				359B70962837F870004A94AC /* Coffee.swift in Sources */,
 			);
