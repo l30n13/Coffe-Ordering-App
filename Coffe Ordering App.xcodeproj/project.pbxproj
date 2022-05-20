@@ -12,19 +12,10 @@
 		359B706F2837F72B004A94AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359B706E2837F72B004A94AC /* Assets.xcassets */; };
 		359B70722837F72B004A94AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359B70712837F72B004A94AC /* Preview Assets.xcassets */; };
 		359B707C2837F72B004A94AC /* Coffe_Ordering_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B707B2837F72B004A94AC /* Coffe_Ordering_AppTests.swift */; };
-		359B70862837F72B004A94AC /* Coffe_Ordering_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B70852837F72B004A94AC /* Coffe_Ordering_AppUITests.swift */; };
-		359B70882837F72B004A94AC /* Coffe_Ordering_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B70872837F72B004A94AC /* Coffe_Ordering_AppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		359B70782837F72B004A94AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 359B705F2837F722004A94AC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 359B70662837F722004A94AC;
-			remoteInfo = "Coffe Ordering App";
-		};
-		359B70822837F72B004A94AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 359B705F2837F722004A94AC /* Project object */;
 			proxyType = 1;
@@ -41,9 +32,6 @@
 		359B70712837F72B004A94AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		359B70772837F72B004A94AC /* Coffe Ordering AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffe Ordering AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359B707B2837F72B004A94AC /* Coffe_Ordering_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffe_Ordering_AppTests.swift; sourceTree = "<group>"; };
-		359B70812837F72B004A94AC /* Coffe Ordering AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffe Ordering AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		359B70852837F72B004A94AC /* Coffe_Ordering_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffe_Ordering_AppUITests.swift; sourceTree = "<group>"; };
-		359B70872837F72B004A94AC /* Coffe_Ordering_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffe_Ordering_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359B707E2837F72B004A94AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +57,6 @@
 			children = (
 				359B70692837F722004A94AC /* Coffe Ordering App */,
 				359B707A2837F72B004A94AC /* Coffe Ordering AppTests */,
-				359B70842837F72B004A94AC /* Coffe Ordering AppUITests */,
 				359B70682837F722004A94AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +66,6 @@
 			children = (
 				359B70672837F722004A94AC /* Coffe Ordering App.app */,
 				359B70772837F72B004A94AC /* Coffe Ordering AppTests.xctest */,
-				359B70812837F72B004A94AC /* Coffe Ordering AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,15 +95,6 @@
 				359B707B2837F72B004A94AC /* Coffe_Ordering_AppTests.swift */,
 			);
 			path = "Coffe Ordering AppTests";
-			sourceTree = "<group>";
-		};
-		359B70842837F72B004A94AC /* Coffe Ordering AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				359B70852837F72B004A94AC /* Coffe_Ordering_AppUITests.swift */,
-				359B70872837F72B004A94AC /* Coffe_Ordering_AppUITestsLaunchTests.swift */,
-			);
-			path = "Coffe Ordering AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +135,6 @@
 			productReference = 359B70772837F72B004A94AC /* Coffe Ordering AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		359B70802837F72B004A94AC /* Coffe Ordering AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 359B70912837F72B004A94AC /* Build configuration list for PBXNativeTarget "Coffe Ordering AppUITests" */;
-			buildPhases = (
-				359B707D2837F72B004A94AC /* Sources */,
-				359B707E2837F72B004A94AC /* Frameworks */,
-				359B707F2837F72B004A94AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				359B70832837F72B004A94AC /* PBXTargetDependency */,
-			);
-			name = "Coffe Ordering AppUITests";
-			productName = "Coffe Ordering AppUITests";
-			productReference = 359B70812837F72B004A94AC /* Coffe Ordering AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +149,6 @@
 						CreatedOnToolsVersion = 13.4;
 					};
 					359B70762837F72B004A94AC = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = 359B70662837F722004A94AC;
-					};
-					359B70802837F72B004A94AC = {
 						CreatedOnToolsVersion = 13.4;
 						TestTargetID = 359B70662837F722004A94AC;
 					};
@@ -221,7 +169,6 @@
 			targets = (
 				359B70662837F722004A94AC /* Coffe Ordering App */,
 				359B70762837F72B004A94AC /* Coffe Ordering AppTests */,
-				359B70802837F72B004A94AC /* Coffe Ordering AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		359B70752837F72B004A94AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		359B707F2837F72B004A94AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,15 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		359B707D2837F72B004A94AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				359B70882837F72B004A94AC /* Coffe_Ordering_AppUITestsLaunchTests.swift in Sources */,
-				359B70862837F72B004A94AC /* Coffe_Ordering_AppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +217,6 @@
 			isa = PBXTargetDependency;
 			target = 359B70662837F722004A94AC /* Coffe Ordering App */;
 			targetProxy = 359B70782837F72B004A94AC /* PBXContainerItemProxy */;
-		};
-		359B70832837F72B004A94AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 359B70662837F722004A94AC /* Coffe Ordering App */;
-			targetProxy = 359B70822837F72B004A94AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -507,42 +433,6 @@
 			};
 			name = Release;
 		};
-		359B70922837F72B004A94AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F2P4X5Y727;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.Coffe-Ordering-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Coffe Ordering App";
-			};
-			name = Debug;
-		};
-		359B70932837F72B004A94AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F2P4X5Y727;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.Coffe-Ordering-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Coffe Ordering App";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +459,6 @@
 			buildConfigurations = (
 				359B708F2837F72B004A94AC /* Debug */,
 				359B70902837F72B004A94AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		359B70912837F72B004A94AC /* Build configuration list for PBXNativeTarget "Coffe Ordering AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				359B70922837F72B004A94AC /* Debug */,
-				359B70932837F72B004A94AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
