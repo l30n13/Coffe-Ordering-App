@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3509C1AE283D0A8100E9BA48 /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509C1AD283D0A8100E9BA48 /* OrderTotalView.swift */; };
 		359B706B2837F722004A94AC /* Coffe_Ordering_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B706A2837F722004A94AC /* Coffe_Ordering_AppApp.swift */; };
 		359B706D2837F722004A94AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B706C2837F722004A94AC /* ContentView.swift */; };
 		359B706F2837F72B004A94AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359B706E2837F72B004A94AC /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		35B9DCFD28382C9D00979F4A /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9DCFC28382C9D00979F4A /* CreateOrderResponse.swift */; };
 		35B9DCFF28382D8700979F4A /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9DCFE28382D8700979F4A /* AddCoffeeOrderViewModel.swift */; };
 		35B9DD0128382FA100979F4A /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9DD0028382FA100979F4A /* CoffeeViewModel.swift */; };
+		35B9DD032838378300979F4A /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9DD022838378300979F4A /* AddCoffeeOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3509C1AD283D0A8100E9BA48 /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 		359B70672837F722004A94AC /* Coffe Ordering App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffe Ordering App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359B706A2837F722004A94AC /* Coffe_Ordering_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffe_Ordering_AppApp.swift; sourceTree = "<group>"; };
 		359B706C2837F722004A94AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		35B9DCFC28382C9D00979F4A /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 		35B9DCFE28382D8700979F4A /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		35B9DD0028382FA100979F4A /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		35B9DD022838378300979F4A /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 			children = (
 				359B706C2837F722004A94AC /* ContentView.swift */,
 				359B70A02837FFF2004A94AC /* OrderListView.swift */,
+				35B9DD022838378300979F4A /* AddCoffeeOrderView.swift */,
+				3509C1AD283D0A8100E9BA48 /* OrderTotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				359B706D2837F722004A94AC /* ContentView.swift in Sources */,
+				35B9DD032838378300979F4A /* AddCoffeeOrderView.swift in Sources */,
 				359B706B2837F722004A94AC /* Coffe_Ordering_AppApp.swift in Sources */,
 				35B9DD0128382FA100979F4A /* CoffeeViewModel.swift in Sources */,
 				359B70982837FA55004A94AC /* Order.swift in Sources */,
@@ -262,6 +269,7 @@
 				359B709E2837FC9F004A94AC /* OrderListViewModel.swift in Sources */,
 				359B709B2837FB07004A94AC /* WebService.swift in Sources */,
 				35B9DCFF28382D8700979F4A /* AddCoffeeOrderViewModel.swift in Sources */,
+				3509C1AE283D0A8100E9BA48 /* OrderTotalView.swift in Sources */,
 				359B70962837F870004A94AC /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
