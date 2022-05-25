@@ -17,7 +17,9 @@ class OrderListViewModel: ObservableObject {
     func fetchOrders() {
         WebService().getAllOrders { [weak self] orders in
             if let orders = orders {
-                self?.orders = orders.map(OrderViewModel.init)
+                DispatchQueue.main.async {
+                    self?.orders = orders.map(OrderViewModel.init)
+                }
             }
         }
     }

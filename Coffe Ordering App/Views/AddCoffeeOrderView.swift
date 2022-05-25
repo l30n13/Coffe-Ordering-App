@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AddCoffeeOrderView: View {
+    @Binding var isPresented: Bool
     @ObservedObject private var addCoffeeOrderVM = AddCoffeeOrderViewModel()
     
     var body: some View {
@@ -32,19 +33,16 @@ struct AddCoffeeOrderView: View {
                         }.pickerStyle(.segmented)
                     }
                     
-                    HStack {
-                        Button("Place Order") {
-                            self.addCoffeeOrderVM.placeOrder()
-                        }
-                    }
-                    .frame(alignment: .center)
-                    .padding(EdgeInsets(top: 10, leading: 100, bottom: 10, trailing: 100))
-                    .background(Color.red)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
+                    Button("Place Order") {
+                        self.addCoffeeOrderVM.placeOrder()
+                        self.isPresented = false
+                    }.frame(maxWidth: .infinity)
+                        .padding(EdgeInsets(top: 15, leading: 0, bottom: 15, trailing: 0))
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
                 }
             }
-            
             .navigationTitle("Add Order")
         }
     }
@@ -52,7 +50,7 @@ struct AddCoffeeOrderView: View {
 
 struct AddCoffeeOrderView_Previews: PreviewProvider {
     static var previews: some View {
-        AddCoffeeOrderView()
+        AddCoffeeOrderView(isPresented: .constant(false))
     }
 }
 

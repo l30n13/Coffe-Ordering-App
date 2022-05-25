@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct Coffe_Ordering_AppApp: App {
+    init() {
+        UINavigationBar.appearance().backgroundColor = .systemGreen
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor.white]
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

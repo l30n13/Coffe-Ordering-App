@@ -42,7 +42,6 @@ struct OrderListView: View {
                         }
                     }
                 }
-                .listRowSeparator(.hidden)
             }
         }
         
